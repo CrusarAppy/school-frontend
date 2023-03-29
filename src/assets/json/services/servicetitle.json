@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Study Abroad",
+    "icon": "icofont-education",
+    "description": "HUB has earned a good reputation among foreign universities and therefore, has sustained a strong link. In turn, this has helped the students to be equipped with the choice of diverse study courses from among a vast range of esteemed colleges in UK, USA, Australia, Ireland, New Zealand and India.",
+    "path": "/services/studyabroad/"
+  },
+  {
+    "title": "Test Preparation",
+    "icon": "icofont-notebook",
+    "description": "Hub International Education conducts IELTS, TOEFL, and SAT preparation classes. It is one of the best test preparation centers in town with more than 1500 students’ enrollment per year. ",
+    "path": "/services/testpreparation/"
+  },
+  {
+    "title": "Career Counseling",
+    "icon": "icofont-users-social",
+    "description": "HUB adopts a participative approach to counseling. It places utmost priority on its student’s subjects and countries of interest. Then, upon the basis of students’ academic caliber, on the most suitable foreign educational institution that can match the students’ dreams of global academic exposure.",
+    "path": "/services/careercounseling/"
+  },
+  {
+    "title": "Migration",
+    "icon": "icofont-world",
+    "description": "We provide a premium migration service to our clients. We work with our clients throughout the visa process to prepare applications of the highest standard. A well-prepared application is a sterling guarantee of moving to Australia successfully.",
+    "path": "/services/migration/"
+  }
+]

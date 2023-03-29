@@ -1,0 +1,20 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.form {
+  height: fit-content;
+  padding: 1em;
+  width: 50%;
+  display: flex;
+  background: rgb(255, 255, 255);
+  gap: 0.5em;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

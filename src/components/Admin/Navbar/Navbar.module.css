@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #7b7b7b;
+  background: #efefef;
+  padding-left: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.listItems {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-bottom: 0.5em;
+}
+
+.listItems li {
+  margin: 0 1em;
+  color: #555555;
+  position: relative;
+}
+
+.icons {
+  padding: 0.2em;
+  border-radius: 50%;
+  transition: all 500ms ease-in-out;
+  background-color: transparent;
+  width: 35px;
+}
+
+.icons:hover {
+  background-color: #a6a6a6;
+  cursor: pointer;
+}
+
+.menu {
+  background: #ffffff;
+  border-radius: 8px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 200px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+.menuNotifications {
+  width: 300px;
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  z-index: 5;
+}
+
+.navbarTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-top: -0.25em;
+  margin-left: 1em;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 0.5em 1em;
+  margin: 0 0.25em;
+  border-radius: 6px;
+  line-height: 1.42857143;
+  transition: all 400ms linear;
+  background-image: linear-gradient(
+    to right,
+    rgba(229, 229, 229, 0.658),
+    #e5e5e5,
+    rgba(255, 255, 255, 0)
+  );
+  background-position: 100% 100%;
+  background-size: 2000%;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+  display: block;
+  font-size: 0.75rem;
+}
+
+.menu li:hover {
+  background-position: 60% 50%;
+  cursor: pointer;
+}
+
+/* .menu li:hover a {
+  color: white;
+} */
+
+.clickActive {
+  background-color: #a6a6a6;
+}
+
+.notify {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background-color: tomato;
+  border-radius: 50%;
+  color: white;
+  font-size: 0.65rem;
+}
+
+.notificationGang:hover {
+  cursor: none;
+}
+
+.menuIcon {
+  display: none;
+  margin-top: 0.35em;
+  color: #555555;
+}
+
+@media (max-width: 1200px) {
+  .menuIcon {
+    display: flex;
+  }
+}

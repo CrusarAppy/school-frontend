@@ -1,0 +1,8 @@
+.hoverr:hover {
+  color: white;
+}
+
+.hoverr {
+  cursor: pointer;
+  text-transform: capitalize;
+}

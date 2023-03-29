@@ -1,0 +1,65 @@
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 05;
+}
+.background {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(3, 17, 59, 0.435);
+  z-index: 1 !important;
+  top: 0;
+  left: 0;
+}
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  width: fit-content;
+}
+
+.dFlex {
+  display: flex;
+  /* width: 100%; */
+  justify-content: center;
+  align-items: center;
+  z-index: 09;
+  /* background-color: black; */
+}
+.open {
+  animation: open 1s;
+}
+@keyframes open {
+  from {
+    margin-top: -100em;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+.video {
+  width: 45rem;
+  height: 30rem;
+  z-index: 09;
+}
+@media (max-width: 737px) {
+  .video {
+    width: 30rem;
+    height: 20rem;
+  }
+}
+@media (max-width: 395px) {
+  .video {
+    width: 20rem;
+    height: 18rem;
+  }
+}

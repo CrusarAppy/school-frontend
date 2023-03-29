@@ -1,0 +1,39 @@
+.loadedImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.notLoadedImage {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  filter: blur(10px);
+  transition: opacity 1s ease-in-out;
+  object-fit: cover;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.closeIconContainer {
+  position: absolute;
+  top: 0.2em;
+  right: 0.2em;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  height: 1.5em;
+  width: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+.closeIconContainer:hover {
+  transform: scale(1.1);
+}

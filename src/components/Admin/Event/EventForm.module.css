@@ -1,0 +1,115 @@
+.container {
+  width: 95%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 2em;
+  margin: 0 auto;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.formItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.doubleItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1em;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.25em;
+  color: #ef4b6d;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #454545;
+  margin-bottom: 0.25em;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.nepaliInput {
+  margin-bottom: -1.5em;
+}
+
+.error {
+  font-size: 0.85rem;
+  color: red;
+  font-weight: 500;
+}
+.imageWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 30vh;
+  padding: 0.5em;
+  min-width: 200px;
+  min-height: 100px;
+}
+
+.errorContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+}
+
+.imageContainer {
+  align-self: flex-start;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 600ms;
+}
+
+.imageContainer:hover {
+  background-color: #3ea5e9;
+  color: #efefef;
+}
+
+.addPhotoIcon {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 480px) {
+  .doubleItems {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+  }
+}

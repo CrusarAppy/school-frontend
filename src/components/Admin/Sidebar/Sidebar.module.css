@@ -1,0 +1,152 @@
+.sidebar {
+  width: 30%;
+  height: 100%;
+  background: #0d1028;
+  padding: 0.5em 1em 1em 1em;
+  color: #d2d2d2;
+  text-align: center;
+  max-width: 300px;
+  min-width: 300px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.titleContainer {
+  display: flex;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  margin-bottom: 0.85em;
+  text-align: left;
+  flex: 80%;
+}
+
+.itemsList {
+  height: auto;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5em;
+}
+
+.itemsList li {
+  width: 100%;
+  height: 50px;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.itemsList li:hover {
+  background: #00acc1;
+  border-radius: 5px;
+}
+
+.icons {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.itemTitle {
+  flex: 70%;
+  display: grid;
+  place-items: start;
+  margin-left: 1em;
+}
+
+.active {
+  background: #656566;
+  border-radius: 5px;
+  transition: background 500ms;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.submenu {
+  width: 100%;
+  height: 50px;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.submenu:hover {
+  background: #00acc1;
+  border-radius: 5px;
+}
+
+.submenuTitle {
+  flex: 70%;
+  display: grid;
+  place-items: start;
+  margin-left: 1em;
+  font-size: 0.8rem;
+}
+
+.spacing {
+  flex: 10%;
+}
+
+.submenuIcons {
+  flex: 20%;
+  display: grid;
+  place-items: center;
+  font-size: 0.85rem;
+}
+
+.open {
+  transition: all 0.5s;
+  transform: rotate(180deg);
+}
+
+.close {
+  transition: all 0.5s;
+}
+
+.none {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .sidebar {
+    /*sidebar overlay container*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 300px;
+    animation: slide 750ms linear;
+    transform: translate(0, 0);
+    transition: all 750ms ease-in-out;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translate(-300px, 0);
+    }
+
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+}

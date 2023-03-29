@@ -1,0 +1,59 @@
+.container {
+  overflow-y: scroll;
+  padding-top: 4em;
+  width: 95%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 2em;
+  margin: 0 auto;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  gap: 2em;
+  width: 100%;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.inputDiv {
+  flex: 70%;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.errorInput {
+  border: 1px solid red;
+}
+
+.profileTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2em;
+  color: #404040;
+}
+
+.labels {
+  flex: 30%;
+  text-align: left;
+  font-size: 1rem;
+  color: #404040;
+  font-weight: 700;
+}

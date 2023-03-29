@@ -1,0 +1,17 @@
+.noticeDescription {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.noticeDescriptionLeft p span {
+  color: white !important;
+}
+
+.noticeDescriptionRight p span {
+  color: black !important;
+}

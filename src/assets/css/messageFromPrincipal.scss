@@ -1,0 +1,69 @@
+/*about-style-three*/
+@import "_variables";
+
+.about-area-three {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  .about-margin {
+    margin-bottom: 2.5em !important;
+  }
+
+  &.bg-image {
+    background: {
+      image: url("../images/bg.jpg");
+      position: center center;
+      size: cover;
+      repeat: no-repeat;
+    }
+  }
+  .about-image {
+    .about-img1 {
+      position: relative;
+      right: 0;
+      top: 0;
+    }
+    .btn {
+      bottom: 0;
+      left: 70px;
+      right: auto;
+    }
+  }
+  .about-content {
+    .signature {
+      margin-bottom: 0;
+    }
+    h6 {
+      font-weight: 600;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+  ul {
+    padding: 0;
+    margin: 20px 0 0;
+    list-style-type: none;
+
+    li {
+      margin-bottom: 10px;
+      color: $paragraph-color;
+      padding-left: 20px;
+      position: relative;
+
+      i {
+        color: $main-color;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -7px;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

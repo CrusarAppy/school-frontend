@@ -1,0 +1,121 @@
+.download-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1em;
+  gap: 1em;
+  box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
+  margin-bottom: 2em;
+}
+
+.download-photos {
+  flex: 30%;
+  overflow: hidden;
+  display: none;
+}
+
+.download-details {
+  padding: 0.75em;
+  flex: 80%;
+}
+
+.pdf-download {
+  display: none;
+}
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1em;
+}
+
+.download-title {
+  font-size: 1.375rem;
+  font-weight: 500;
+  margin: 0;
+  transition: color 0.5s ease;
+  flex: 70%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.download-date {
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.5s ease;
+  flex: 10%;
+  margin-bottom: 1em;
+}
+
+.download-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+  .download-details {
+    position: relative;
+  }
+
+  .icon-button-container {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75em;
+  }
+
+  .pdf-download {
+    display: grid;
+    place-items: center;
+  }
+
+  .download-button-container {
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    padding-right: 1em;
+  }
+
+  .download-card {
+    flex-direction: row;
+    max-height: 200px;
+    height: 400px;
+  }
+
+  .download-photos {
+    max-height: none;
+    flex: 35%;
+    display: block;
+  }
+
+  .single-download-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .download-photos {
+    flex: 20%;
+  }
+}
+
+@media (min-width: 1080px) {
+  .download-container {
+    flex-direction: row;
+  }
+
+  .download-date {
+    justify-content: flex-end;
+    flex: 20%;
+  }
+}

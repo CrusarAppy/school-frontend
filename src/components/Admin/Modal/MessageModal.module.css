@@ -1,0 +1,32 @@
+.messageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: capitalize;
+  padding: 1em 1em 0em 1em;
+  overflow-wrap: break-word;
+  gap: 0.5em;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1em;
+}
+
+.key {
+  font-weight: 500;
+}
+
+.value {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  text-align: justify;
+}
+
+.fileIcon {
+  color: blue;
+  cursor: pointer;
+}

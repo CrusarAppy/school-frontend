@@ -1,0 +1,93 @@
+.containerWrapper {
+  /* display: none; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 1em;
+  gap: 1em;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.imageContainer {
+  height: 30px;
+  width: auto;
+}
+
+.schoolName {
+  font-size: 0.95rem;
+}
+
+.linkContainer {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.iconContainer:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.languageContainer {
+  display: flex;
+  gap: 0.25em;
+  align-items: center;
+  background: white;
+  color: black;
+  padding: 0.25em;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: fit-content;
+  margin-bottom: 1em;
+}
+
+.language {
+  font-size: 0.7rem;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.lang {
+  background: #427320;
+  color: white;
+}
+
+@media (min-width: 576px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .languageContainer {
+    margin: 0;
+  }
+}
+
+@media (min-width: 935px) {
+  .containerWrapper {
+    display: block;
+  }
+} ;

@@ -1,0 +1,50 @@
+.card {
+  height: 16em;
+  /* aspect-ratio: 1.5/1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* margin: 1em; */
+  cursor: pointer;
+  background-color: rgb(37, 35, 93);
+}
+
+.container {
+  min-height: 60vh;
+  height: fit-content;
+  /* padding: 2rem 0; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  width: 100%;
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+  /* opacity: ; */
+}
+
+@media (max-width: 767px) {
+  .container {
+    justify-items: center;
+  }
+  .card {
+    width: 350px;
+  }
+}
+.videotitle {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}

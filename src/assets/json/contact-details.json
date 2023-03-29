@@ -1,0 +1,9 @@
+[
+  { "title": "email", "icon": "icofont-email", "details": "email_address" },
+  {
+    "title": "location_name",
+    "icon": "icofont-google-map",
+    "details": "location"
+  },
+  { "title": "phone_number", "icon": "icofont-phone", "details": "phone" }
+]

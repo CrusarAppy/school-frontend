@@ -1,0 +1,244 @@
+/*================================================
+Blog CSS
+=================================================*/
+@import "_variables";
+
+.blog-area {
+  position: relative;
+  z-index: 1;
+
+  &.bg-image {
+    background: {
+      image: url("../images/bg.jpg");
+      position: center center;
+      size: cover;
+      repeat: no-repeat;
+      attachment: fixed;
+    }
+  }
+}
+.single-blog-post {
+  margin-bottom: 30px;
+  background-color: $white-color;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.06);
+  height: 520px;
+
+  p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .blog-image {
+    position: relative;
+    overflow: hidden;
+
+    a {
+      display: block;
+
+      img {
+        transition: $transition;
+        height: 240px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .post-tag {
+      position: absolute;
+      right: 0;
+      top: 60px;
+      transition: $transition;
+
+      a {
+        background: $main-color;
+        color: $white-color;
+        padding: 9px 28px;
+      }
+    }
+  }
+  .blog-post-content {
+    padding: 25px;
+    position: relative;
+
+    .btn-absolute {
+      position: absolute;
+      top: 220px;
+      left: 25px;
+    }
+
+    .date {
+      color: $green-light-color;
+      display: block;
+      text-transform: uppercase;
+      font: {
+        size: 14px;
+      }
+      transition: $transition;
+    }
+    h3 {
+      margin: {
+        top: 13px;
+        bottom: 15px;
+      }
+      line-height: 30px;
+      font: {
+        size: 22px;
+      }
+
+      a {
+        color: $black-color;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        &:hover,
+        &:focus {
+          color: $main-color;
+        }
+      }
+    }
+    p {
+      margin-bottom: 15px;
+    }
+  }
+  .read-more-btn {
+    position: relative;
+    font-weight: 500;
+    color: $main-color;
+
+    &:hover {
+      color: $sub-main-color;
+      letter-spacing: 1px;
+    }
+  }
+  &:hover,
+  &:focus {
+    .blog-image {
+      a {
+        img {
+          transform: scale(1.2);
+        }
+      }
+      .post-tag {
+        top: 70px;
+
+        a {
+          background: $green-light-color;
+          color: $white-color;
+        }
+      }
+    }
+  }
+}
+.blog-slides {
+  &.owl-theme {
+    .owl-nav {
+      &.disabled {
+        + .owl-dots {
+          margin-top: 25px;
+          line-height: 0.01;
+        }
+      }
+    }
+  }
+}
+/*blog-style-two*/
+.blog-section {
+  padding-bottom: 90px;
+}
+.single-blog-card {
+  position: relative;
+  margin-bottom: 30px;
+
+  > a {
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+
+  &::before {
+    opacity: 0.6;
+    background: $black-color;
+    content: "";
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    right: 0;
+    position: absolute;
+    width: 100%;
+  }
+  .post-tag {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    transition: $transition;
+    z-index: 2;
+
+    a {
+      background: $main-color;
+      color: $white-color;
+      padding: 9px 28px;
+    }
+  }
+  .blog-post-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 30px 0;
+    transition: $transition;
+    z-index: 2;
+
+    h3 {
+      font-size: 22px;
+      margin-bottom: 15px;
+      line-height: 1.5;
+
+      a {
+        color: $white-color;
+
+        &:hover,
+        &:focus {
+          color: $main-color;
+        }
+      }
+    }
+    p {
+      color: $white-color;
+    }
+    .read-more-btn {
+      position: relative;
+      font-weight: 500;
+      opacity: 0;
+      visibility: hidden;
+      color: $main-color;
+
+      &:hover {
+        color: $sub-main-color;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  &:hover,
+  &:focus {
+    .post-tag {
+      top: 40px;
+
+      a {
+        background: $green-light-color;
+        color: $white-color;
+      }
+    }
+    .blog-post-content {
+      padding-bottom: 30px;
+
+      .read-more-btn {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}

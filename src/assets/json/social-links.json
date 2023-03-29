@@ -1,0 +1,6 @@
+[
+  { "title": "facebook", "path": "https://www.facebook.com/", "classname": "facebook", "icon": "icofont-facebook" },
+  { "title": "twitter", "path": "https://twitter.com/", "classname": "twitter", "icon": "icofont-twitter" },
+  { "title": "linkedin", "path": "https://www.linkedin.com/", "classname": "linkedin", "icon": "icofont-linkedin" },
+  { "title": "instagram", "path": "https://www.instagram.com/", "classname": "instagram", "icon": "icofont-instagram" }
+]

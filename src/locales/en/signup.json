@@ -1,0 +1,10 @@
+{
+  "create": "Create Your Account",
+  "username": "Username",
+  "email": "Email",
+  "email_address": "Email Address",
+  "password": "Password",
+  "signup": "Signup",
+  "register": "Already a registered user?",
+  "login": "Login!"
+}

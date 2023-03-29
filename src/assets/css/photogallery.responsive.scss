@@ -1,0 +1,19 @@
+@import "_variables";
+
+@media (max-width: 1200px) {
+  .photo-card:hover .overlay-left {
+    transform: rotate(62deg);
+  }
+  .photo-card:hover .overlay-right {
+    transform: rotate(62deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-card:hover .overlay-left {
+    transform: rotate(50deg);
+  }
+  .photo-card:hover .overlay-right {
+    transform: rotate(50deg);
+  }
+}

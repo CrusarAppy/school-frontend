@@ -1,0 +1,59 @@
+@import "./../_variables";
+
+.arrowLeft {
+  padding: 0.2em 0.1em;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  z-index: 2;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.809);
+  cursor: pointer;
+
+  i {
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.809);
+  }
+
+  &:hover {
+    border: 1px solid white;
+    i {
+      color: white;
+    }
+  }
+}
+
+.arrowRight {
+  border: 1px solid rgba(255, 255, 255, 0.809);
+  padding: 0.2em 0.1em;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  z-index: 2;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  i {
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.809);
+  }
+  &:hover {
+    border: 1px solid white;
+    i {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 662px) {
+  .arrowRight {
+    right: 20px;
+  }
+  .arrowLeft {
+    left: 20px;
+  }
+}
