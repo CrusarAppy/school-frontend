@@ -12,8 +12,8 @@ const FunFact = () => {
   const data = [
     {
       icon: "icofont-focus",
-      name: t("leadership"),
-      number: 100,
+      name: t("Number of student"),
+      number: 700,
     },
     {
       icon: "icofont-microphone",
@@ -28,7 +28,7 @@ const FunFact = () => {
     {
       icon: "icofont-users-social",
       name: t("years_of_experience"),
-      number: 30,
+      number: 55,
     },
   ];
 
