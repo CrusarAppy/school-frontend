@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "en_title": "Om Prasad Poudel",
+        "en_description": "Principal",
+        "np_title": "",
+        "np_description": "",
+        "background_image":   "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 2,
+        "en_title": "Upendra Adhikari",
+        "en_description": "Vice-Principal",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 3,
+        "en_title": "Mitralal Poudel",
+        "en_description": "Teacher",
+        "np_title": "",
+        "np_description": "",
+        "background_image":"/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 4,
+        "en_title": "Rabi Bhandari ",
+        "en_description": "Teacher",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 5,
+        "en_title": "Mina Sapkota",
+        "en_description": "Teacher",
+        "np_title": "",
+        "np_description": "",
+        "background_image":   "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 6,
+        "en_title": "Asis Banstola",
+        "en_description": "Instructor",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 7,
+        "en_title": "Roshan Subedi",
+        "en_description": "Instructor",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 8,
+        "en_title": "Apar Bhandari",
+        "en_description": "Instructor",
+        "np_title": "",
+        "np_description": "",
+        "background_image":"/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 8,
+        "en_title": "Bharat Adhikari",
+        "en_description": "Accountant ",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 9,
+        "en_title": "Chabi Poudel",
+        "en_description": "Teacher ",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 10,
+        "en_title": "Bina Thapa Magar",
+        "en_description": "Teacher",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 11,
+        "en_title": "Ram Chandra Parajuli",
+        "en_description": "Teacher",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 12,
+        "en_title": "Liladhar Adhikari",
+        "en_description": "Teacher ",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 13,
+        "en_title": "Jhalak Rana Magar",
+        "en_description": "Teacher ",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 14,
+        "en_title": "Nabin Bhattarai",
+        "en_description": "Sub-Instructor",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 15,
+        "en_title": "Thakur Prasad Poudel",
+        "en_description": "Teacher",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 16,
+        "en_title": "Kiran Banstola",
+        "en_description": "Teacher",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 17,
+        "en_title": "Chandrama Poudel",
+        "en_description": "Teacher ",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      },
+      {
+        "id": 18,
+        "en_title": "Krishna Poudel",
+        "en_description": "Staff",
+        "np_title": "",
+        "np_description": "",
+        "background_image": "/static/img/staff-images/bharat.jpg"
+      }
+
+
+]
+
